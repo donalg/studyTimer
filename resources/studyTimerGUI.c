@@ -3,6 +3,8 @@
 #define display_height 400;
 #define display_width 500;
 
+TimerVals vales*;
+
 void GTKwindowInit()
 {
 	// Create the window:
