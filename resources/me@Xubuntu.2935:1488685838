@@ -52,10 +52,10 @@ void GTKwindowInit()
 	button_hour_sub = gtk_button_new_with_label("-");
 
 	button_min_add = gtk_button_new_with_label("+");
-	button_min_sub = gtk_button_new_with_label("-");
+	button_min_sub = gtk_button_new_with_label("-"
 
-    button_sec_add = gtk_button_new_with_label("+");
-	button_sec_sub = gtk_button_new_with_label("-");
+                                               button_sec_add = gtk_button_new_with_label ;
+	button_sec_sub = gtk_button_new();
 
     // Define all Label:
     label_hour = gtk_label_new();
